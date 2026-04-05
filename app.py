@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 model = load_model("model.h5")
 with open("labelencoder_gender.pkl", "rb") as file:
     labelencoder_gender = pickle.load(file)
-with open("onehotencoder_geo.pkl", "rb") as file:
+with open("onehotEncoder_geo.pkl", "rb") as file:
     onehotencoder_geo = pickle.load(file)
 with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
